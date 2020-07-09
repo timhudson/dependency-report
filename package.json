@@ -24,19 +24,20 @@
     "test": "xo && ava"
   },
   "engines": {
-    "node": ">=8"
+    "node": ">=10"
   },
   "dependencies": {
-    "@babel/parser": "^7.4.4",
     "arrify": "^1.0.1",
     "chalk": "^2.3.1",
+    "es-module-lexer": "^0.3.24",
     "fs-extra": "^5.0.0",
     "globby": "^7.1.1",
+    "jest-worker": "^26.1.0",
     "meow": "^4.0.0",
     "minimatch": "^3.0.4",
     "ora": "^2.0.0",
-    "p-limit": "^1.2.0",
-    "recast": "^0.18.1"
+    "strip-comments": "^2.0.1",
+    "validate-npm-package-name": "^3.0.0"
   },
   "devDependencies": {
     "ava": "^1.4.1",
@@ -45,7 +46,7 @@
     "lint-staged": "^8.1.7",
     "prettier": "^1.10.2",
     "tempy": "^0.2.1",
-    "xo": "^0.18.2"
+    "xo": "^0.32.1"
   },
   "husky": {
     "hooks": {
